@@ -59,6 +59,7 @@ EOF
 
 clone_repo(){
     echo "进行初始化。。。"
+    rm -rf IBMYes
     git clone https://github.com/CCChieh/IBMYes
     cd IBMYes
     git submodule update --init --recursive
