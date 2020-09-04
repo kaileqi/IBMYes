@@ -116,6 +116,7 @@ install(){
       "tls": "tls"
     }
 EOF
+
     )
 	echo "配置链接："
     echo vmess://${VMESSCODE}
